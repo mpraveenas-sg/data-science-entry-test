@@ -22,6 +22,5 @@ result1 = update_dictionary({}, "name", "Alice")
 print(f"Scenario 1 result after update: {result1}")
 
 # Scenario 2: {"age": 25}, "age", 26
-# This should print the original value (25) and then return the updated dict
 result2 = update_dictionary({"age": 25}, "age", 26)
 print(f"Scenario 2 result after update: {result2}")
